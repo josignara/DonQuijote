@@ -1,0 +1,61 @@
+@media screen and (max-width: 479px) 
+{
+body
+{
+background-color: darksalmon;
+color: yellow;
+}
+}
+
+@media screen and (min-width: 480px) and (max-width: 719px) 
+
+{
+body
+{
+margin-left: 50px;
+margin-right: 50px;
+background-color: limegreen;
+color: darkblue;
+}
+}
+
+@media screen
+and (min-width: 720px) and (max-width: 1023px) 
+{
+body
+{
+margin-left: 150px;
+margin-right: 150px;
+background-color: aquamarine;
+color: darkred;
+}
+}
+
+@media screen and (min-width: 1024px) 
+{
+body
+{
+margin-left: 30%;
+margin-right: 30%;
+background-color: violet;
+color: darkred;
+}
+}
+
+
+body
+{
+font-family: Arial, Helvetica, sans-serif;
+}
+
+p, h1, h2
+{
+text-align: justify;
+}
+
+footer
+{
+border-bottom: black 3px solid;
+border-top: black 3px solid;
+color: black;
+}
